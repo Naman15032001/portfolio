@@ -1,0 +1,286 @@
+body{
+	text-align: center;
+}
+#imp{
+	background-color:#001A33	;
+	padding-top :5% ;
+	padding-bottom: 2%;
+}
+#sk{
+	width:75%;
+	color:#fff;
+}
+.sh3{
+	width:100%;
+	font-size: 4vw;
+	color:#fff;
+
+	margin:5% 4%;
+}
+#cotct{
+	text-align: left;
+}
+
+
+
+#title{
+	background-image:url('https://www.chromethemer.com/download/hd-wallpapers/dark-forest-3840x2160.jpg');
+	
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+
+	padding-bottom: 15%
+
+	
+}
+#testimonials{
+	background-color: #001A33;
+
+	
+	
+	padding:3% 3%;
+}
+#press{
+	background-color: #001A33;
+	padding:5% 5%;
+	text-align: center;
+
+}
+#testi{
+	width:90%;
+}
+h1{
+	font-size: 4rem;
+	opacity: .7;
+	
+	
+}
+h2
+{
+	width:0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: text 6s steps(14) infinite alternate;
+	border-right:solid white;
+
+}
+h5{
+	font-size: 5vw;
+	opacity: .7;
+	color: #fff;
+}
+hr{
+margin-top: 10%;
+border-color:	#fff ;
+border-style: none;
+border-top-style: dotted;
+border-width:3vw;
+opacity:0.2;
+width: 30%
+}
+.tyty
+{
+	color:#fff;
+	opacity: .8;
+	text-align: center;
+	padding: 5% 7%
+}
+.webd{
+	padding :3%;
+}
+.webd1{
+	width:30%;
+	border-radius: 100%;
+	float: left;
+}
+.webd2{
+	width:30%;
+	border-radius: 100%;
+	float: left;
+	
+	
+}
+.n-p{
+	width:60%;
+	text-align: center;
+	margin:8% auto;
+	line-height: 2;
+}
+@keyframes text{
+	0%{
+		width:0ch;
+	}
+	50%{
+		width:14ch;
+	}
+
+}
+#testi1{
+margin-bottom: 7%;
+font-size:6vw;
+color:#fff;
+opacity: .6;
+
+}
+.c{
+	margin-top: 3%;
+}
+.name-head{
+	text-align: center;
+	padding-top:75px;
+	
+	
+	color:#fff;
+}
+.naman{
+
+	text-align: center;
+
+}
+
+@media(min-width: 600px){
+	.naman {
+		margin:auto;
+	
+	}
+	.naman #f{
+		margin: 5% auto;
+	}
+
+}
+@media(max-width: 600px){
+	#e{
+		font-size:2rem;
+	
+	}
+	#f{
+		margin:5% auto;
+		font-size: 1.5rem;
+	}
+	#sk .sh1{
+		font-size:1.5rem;
+
+	}
+	.naman
+	{
+		margin:auto;
+	}
+	.naman #f{
+		margin:auto;
+	}
+
+}
+
+
+}
+/* skills sectio */
+
+
+
+.skills{
+	background-color: #fff;
+	width:100%;
+
+}
+.skills-bar {
+  text-align: right; /* Right-align text */
+  padding-top: 2%px; /* Add top padding */
+  padding-bottom: 2%px; /* Add bottom padding */
+  color:#001A33  ; /* White text color */
+  padding-right: 2%;
+  border-radius: 10%;
+  font-weight: bold;
+}
+.ht,.jv,.py,.ds,.mern { 
+	background-color: #fff;
+	opacity: 0.5;
+
+	
+	animation-duration: 4s;
+}
+.ds
+{
+	animation-name: ok2;
+width:75%;
+}
+.jv{
+	animation-name: ok1;
+	width:80%;
+}
+.py{
+	animation-name: ok1;
+	width:80%;
+}
+.ht{
+	animation-name: ok4;
+	width:60%;
+}
+.mern{
+	animation-name: ok3;
+	width:50%;
+}
+@keyframes ok1{
+0%{
+width:0%;
+}
+25%{
+	width:30%;
+}
+50%{
+	width:60%;
+}
+75%
+{
+	width:80%;
+}
+
+}
+@keyframes ok2{
+0%{
+width:0%;
+}
+25%{
+	width:25%;
+}
+50%{
+	width:50%;
+}
+75%
+{
+	width:75%;
+}
+
+}
+@keyframes ok3{
+0%{
+width:0%;
+}
+25%{
+	width:15%;
+}
+50%{
+	width:32%;
+}
+75%
+{
+	width:50%;
+}
+
+}
+@keyframes ok4{
+0%{
+width:0%;
+}
+25%{
+	width:20%;
+}
+50%{
+	width:40%;
+}
+75%
+{
+	width:60%;
+}
+
+}
