@@ -11,6 +11,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="icon"  href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
     <script src="https://use.fontawesome.com/ba6a12a3ef.js"></script>
 
@@ -22,7 +27,7 @@
 <body>
 
   <section id="title" class="container-fluid  ">
-    <nav class="navbar navbar-expand-lg navbar-dark  ">
+    <nav class="navbar navbar-expand-lg  navbar-dark  " >
        <a class="navbar-brand" href="#">Naman Jain</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -33,10 +38,10 @@
         <a class="nav-link" href="#imp">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#cotct">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Download</a>
+        <a class="nav-link" href="#press">ABOUT</a>
       </li>
       
     </ul>
@@ -64,28 +69,28 @@
 
   <section id="imp">
     <div class="container-fluid" id="sk">
-      <h1 class ="sh1">MY SKILLS</h1>
-      <h3 class="sh3">DS-ALGO</h3>
+      <h1 class ="sh1" id="s77">MY SKILLS</h1>
+      <h3 class="sh3" id="a1">DS-ALGO</h3>
         <div class="skills">
           <div class="skills-bar ds">75%
           </div>
         </div>  
-      <h3 class="sh3">JAVA</h3>
+      <h3 class="sh3" id="a2">JAVA</h3>
         <div class="skills">
           <div class="skills-bar jv">80%
           </div>
         </div>
-        <h3 class="sh3">HTML,CSS,JS</h3>
+        <h3 class="sh3" id="a3">HTML,CSS,JS</h3>
         <div class="skills">
           <div class="skills-bar ht">60%
           </div>
         </div>  
-        <h3 class="sh3">PYTHON</h3>
+        <h3 class="sh3" id="a4">PYTHON</h3>
         <div class="skills">
           <div class="skills-bar py">80%
           </div>
         </div>  
-        <h3 class="sh3">MERN STACK</h3>
+        <h3 class="sh3" id="a5">MERN STACK</h3>
         <div class="skills">
           <div class="skills-bar mern">50%
           </div>
@@ -140,19 +145,19 @@
 
   <section id="press">
     <div class="container-fluid" id="op">
-    <h5>WHAT I DO </h5>
+    <h5 id="a8">WHAT I DO </h5>
     <div class="row tyty">
     
       <div class="col-lg-6 col-md-6 webd">
         <img class ="webd1" src="https://media.giphy.com/media/9LQHvkbIzTSLe/giphy.gif">
-        <h6>FRONT-END</h6>
+        <h6 id="a9">FRONT-END</h6>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma.</p>
       </div>
      
 
       <div class="col-lg-6 col-md-6 webd">
         <img class ="webd2" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
-        <h6>BACK-END</h6>
+        <h6 id="a10">BACK-END</h6>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu.</p>
       </div>
       
@@ -164,30 +169,21 @@
   <!-- Contact-->
 
   <section id="cotct">
-    <div class="container-fluid">
-  <form >
-
-    <label >First Name</label>
-    <br>
-    <input type="text"  name="firstname" placeholder="Your name..">
-    <br>
-
-    <label >Last Name</label>
-    <br>
-    <input type="text"  name="lastname" placeholder="Your last name..">
-    <br>
-    <label >PHONE NO</label>
-    <br>
-     <input type="number"  name="number" placeholder="Contact no...">
-    <br>
-
-    <label>Subject</label>
-    <br>
-    <textarea  name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    <br>
-
-    <input type="submit" value="Submit">
-
+    <h3 id="co">CONTACT ME</h2>
+    <div class="container-fluid for">
+  <form  class="contact-form1"  id="contact-form11" action="mailto:namanjain1502001@gmail.com" method="POST" enctype="text/plain" >
+    
+    <input type="text" class="contact-form-text" name="firstname" placeholder="Your name..">
+    
+    
+    <input type="email"class="contact-form-text" name="email1" placeholder="Your email..">
+  
+    
+     <input type="text" class="contact-form-text"  name="number" placeholder="Contact no...">
+    
+    <textarea  name="subject" class="contact-form-text" placeholder="Write something.."></textarea>
+    
+    <input type="submit" class="contact-form-btn" value="Submit">
   </form>
 </div>
 
@@ -209,14 +205,36 @@
   <!-- Footer -->
 
   <footer id="footer" class="ws">
-    <div class="container-fluid">
-      <i class="social-icon fa fa-facebook-official"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
+    <hr>
+    <div class="container-fluid fcot social">
+      <p> <i class="fa fa-map-marker fa-3x rty" aria-hidden="true"></i></p>
+     
+      <p >DieSachbearbeiter,
+               Choriner Straße 49,
+               10435 Berlin,
+               </p>
+            
+             
 
-    <p>© Copyright 2018 TinDog</p>
+               <p><i class="fa fa-envelope fa-2x rty" ></i></p> 
+                   <p>moinsen2@blir.com</p>
+                 
+                 <hr >
+               </div>
+
+
+
+
+    
+      <div class="container-fluid logos" >          
+      <i class="social-icon fa fa-facebook-official"></i>
+      <i class="social icon fa fa-twitter" aria-hidden="true"></i>
+      <i class="social icon fa fa-instagram" aria-hidden="true"></i>
+      <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
+
+    <p>© Copyright 2020 NAMAN</p>
   </div>
+ 
 
   </footer>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
